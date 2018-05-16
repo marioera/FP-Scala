@@ -1,5 +1,3 @@
-object HelloWorld {
-  def main(args: Array[String]) {
-    print("Hello World");
-  }
+object Hello extends App {
+  println("Hello, world!")
 }
