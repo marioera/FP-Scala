@@ -106,7 +106,7 @@ object TimeUsage {
           loop_classifiedColumns(t, primaryCols, col(h) :: workingCols, otherCols)
         else if (h.startsWith("t02") || h.startsWith("t04") || h.startsWith("t06") || h.startsWith("t07") || h.startsWith("t08")
           || h.startsWith("t09") || h.startsWith("t10") || h.startsWith("t12") || h.startsWith("t13") || h.startsWith("t14")
-          || h.startsWith("t015") || h.startsWith("t16") || h.startsWith("t18"))
+          || h.startsWith("t15") || h.startsWith("t16") || h.startsWith("t18"))
           loop_classifiedColumns(t, primaryCols, workingCols, col(h) :: otherCols)
         else
           loop_classifiedColumns(t, primaryCols, workingCols, otherCols)
